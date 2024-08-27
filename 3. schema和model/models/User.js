@@ -41,3 +41,4 @@ const userSchema = new mongoose.Schema({
 
 // 2. 通过User Schema定义模型，最终导出模型
 module.exports = mongoose.model("User", userSchema);
+

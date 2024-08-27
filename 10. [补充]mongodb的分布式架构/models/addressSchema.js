@@ -11,3 +11,4 @@ module.exports = new Schema({
     required: true,
   },
 });
+

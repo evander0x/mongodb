@@ -8,3 +8,4 @@ mongoose.connect("mongodb://localhost/test3", {
 mongoose.connection.on("open", () => {
   console.log("连接已打开");
 });
+

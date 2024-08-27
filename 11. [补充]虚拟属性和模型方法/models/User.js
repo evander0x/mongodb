@@ -73,3 +73,4 @@ userSchema.static("getUsers", async function (
 
 userSchema.plugin(updateIfCurrentPlugin);
 module.exports = mongoose.model("User", userSchema);
+

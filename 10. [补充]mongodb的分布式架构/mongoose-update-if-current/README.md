@@ -142,3 +142,4 @@ The project uses the [Google JavaScript code style](https://google.github.io/sty
 ## License
 
 [MIT](http://eoin.mit-license.org)
+
