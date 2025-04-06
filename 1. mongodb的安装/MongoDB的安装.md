@@ -28,6 +28,36 @@ sudo chown -R $(whoami) /usr/local/include /usr/local/lib /usr/local/lib/pkgconf
 
 
 
+
+
+我下载 6.0 的
+
+https://www.mongodb.com/docs/v6.0/tutorial/install-mongodb-on-os-x/
+
+
+
+开启，关闭在官网可查看
+
+brew services start mongodb-community@6.0
+
+brew services stop mongodb-community@6.0
+
+
+
+连接
+
+```
+mongosh
+```
+
+
+
+查看
+
+show dbs
+
+
+
 # 安装robo 3T
 
 类似于`mysql`的`navicat`
@@ -59,5 +89,4 @@ sudo chown -R $(whoami) /usr/local/include /usr/local/lib /usr/local/lib/pkgconf
 
 - 数据内容非常丰富和灵活
 - 对数据结构难以进行有效的限制
-
 
