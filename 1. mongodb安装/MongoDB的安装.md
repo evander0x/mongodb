@@ -1,14 +1,12 @@
-MongoDB官网：https://www.mongodb.com/zh
+MongoDB 官网：https://www.mongodb.com/zh
 
-# windows下安装mongodb
+# windows 下安装 mongodb
 
 下载`msi`安装程序
 
 一步一步安装即可
 
-
-
-# MacOS下安装mongodb
+# MacOS 下安装 mongodb
 
 安装流程：https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
@@ -22,19 +20,11 @@ MongoDB官网：https://www.mongodb.com/zh
 sudo chown -R $(whoami) /usr/local/include /usr/local/lib /usr/local/lib/pkgconfig
 ```
 
-
-
 添加开启自启动服务时需要使用`sudo`
-
-
-
-
 
 我下载 6.0 的
 
 https://www.mongodb.com/docs/v6.0/tutorial/install-mongodb-on-os-x/
-
-
 
 开启，关闭在官网可查看
 
@@ -42,29 +32,21 @@ brew services start mongodb-community@6.0
 
 brew services stop mongodb-community@6.0
 
-
-
 连接
 
 ```
 mongosh
 ```
 
-
-
-查看
+进入 mongosh 后才可以查看
 
 show dbs
 
-
-
-# 安装robo 3T
+# 安装 robo 3T
 
 类似于`mysql`的`navicat`
 
 下载地址：https://robomongo.org/
-
-
 
 # 基础概念
 
@@ -89,4 +71,3 @@ show dbs
 
 - 数据内容非常丰富和灵活
 - 对数据结构难以进行有效的限制
-
