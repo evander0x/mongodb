@@ -1,5 +1,7 @@
 # mongodb
 
+备注： 更详细的笔记在 master 分支
+
 mongodb 笔记
 
 使用 mongodb 的优势以及劣势
@@ -23,5 +25,3 @@ mongodb 尽量不使用鉴权，鉴权会让 mongodb 数据读取慢，考虑安
 补充：
 
 - mongodb 原生操作放扩展文件夹里面，这里主要是使用 **mongose** 对 mongodb 进行操作。只需要下载 mongose，里面有包含 mongodb
-
-比较详情的笔记，在 frontend-mongodb
