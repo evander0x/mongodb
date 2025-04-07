@@ -24,4 +24,4 @@ mongodb 尽量不使用鉴权，鉴权会让 mongodb 数据读取慢，考虑安
 
 补充：
 
-- mongodb 原生操作放扩展文件夹里面，这里主要是使用 **mongose** 对 mongodb 进行操作。只需要下载 mongose，里面有包含 mongodb
+- mongodb 原生操作放扩展文件夹里面，这里主要是使用 **mongoose** 对 mongodb 进行操作。只需要下载 mongoose，里面有包含 mongodb
